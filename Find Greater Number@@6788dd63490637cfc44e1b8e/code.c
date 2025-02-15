@@ -8,5 +8,8 @@ int main(){
     else if (a < b){
         printf("%d", b);
     }
+    else{
+        printf("0");
+    }
     return 0;
 }

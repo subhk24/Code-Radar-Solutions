@@ -2,7 +2,6 @@
 int main(){
     char ch;
     scanf("%c", &ch);
-    ch = (ch >= 'A' && ch'Z') ? ch + ('a' - 'A') : ch;
     switch(ch){
         case 'a': case 'e': case 'i': case 'o': case 'u':
         printf("Vowel");

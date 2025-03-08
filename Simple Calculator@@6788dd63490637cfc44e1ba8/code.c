@@ -9,9 +9,9 @@ int main(){
     div = a / b;
     if(ch=="+")
         printf("%d", sum);
-    else if(ch=="-")
+    else if(ch == "-")
         printf("%d", diff);
-    else if(ch =="*")
+    else if(ch == "*")
         printf("%d", mul);
     else if(ch == "/")
         printf("%d", div);

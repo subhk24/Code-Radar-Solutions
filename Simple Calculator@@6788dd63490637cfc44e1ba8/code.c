@@ -7,7 +7,7 @@ int main(){
     diff = a - b;
     mul = a * b;
     div = a / b;
-    if(ch=="+")
+    if(ch == "+")
         printf("%d", sum);
     else if(ch == "-")
         printf("%d", diff);

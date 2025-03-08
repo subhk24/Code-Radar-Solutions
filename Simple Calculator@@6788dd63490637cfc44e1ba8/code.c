@@ -7,15 +7,20 @@ int main(){
     diff = a - b;
     mul = a * b;
     div = a / b;
-    if(ch == "+")
+    if(ch == '+'){
         printf("%d", sum);
-    else if(ch == "-")
+        }
+    else if(ch == '-'){
         printf("%d", diff);
-    else if(ch == "*")
+    }
+    else if(ch == '*'){
         printf("%d", mul);
-    else if(ch == "/")
+    }
+    else if(ch == '/'){
         printf("%d", div);
-    else
+    }
+    else{
         printf("error");
+    }
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char a;
-    scanf("%d", &a);
+    scanf("%c", &a);
     if(a=='G')
         printf("Go");
     else if(a=='R')
@@ -9,6 +9,6 @@ int main(){
     else if(a=='Y')
         printf("Slow Down");
     else    
-    printf("Invalid input");
+        printf("Invalid input");
     return 0;
 }

@@ -11,9 +11,9 @@ int main(){
         printf("%d", sum);
     else if(ch == -)
         printf("%d", diff);
-    else if(ch == "*")
+    else if(ch == *)
         printf("%d", mul);
-    else if(ch == "/")
+    else if(ch == /)
         printf("%d", div);
     else
         printf("error");

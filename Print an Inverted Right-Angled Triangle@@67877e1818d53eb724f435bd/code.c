@@ -10,6 +10,3 @@ int main(){
     }
     return 0;
 }
-
-i=0; i<=(n-1);i++
-j=0

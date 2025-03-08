@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d", &a);
     switch (a) {
-        case 0:
+        case 0 | 8:
         printf("Invalid");
         break;
         case 1:

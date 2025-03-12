@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <math.h>
 int main(){
-    int num;
+    int num, a;
     scanf("%d", &num);
-    printf("%d", __builtin_ctz(num) + 1);
+    a = log2(n & -n) + 1;
+    printf("%d", a);
     return 0;
 }

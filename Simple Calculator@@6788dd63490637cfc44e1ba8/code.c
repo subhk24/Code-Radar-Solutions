@@ -6,8 +6,8 @@ int main(){
     scanf("%d %d %c", &a, &b, &ch);
     sum = a + b;
     diff = a - b;
-    mul = float(a * b);
-    div = float(a / b);
+    mul = (float)a * b;
+    div = (float)a / b;
     if(ch == '+'){
         printf("%d", sum);
         }

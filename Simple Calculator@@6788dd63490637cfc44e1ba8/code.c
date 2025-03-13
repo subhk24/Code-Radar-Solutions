@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-    int a, b, sum, diff, mul, div;
+    int a, b, sum, diff, mul;
+    float div;
     char ch;
     scanf("%d %d %c", &a, &b, &ch);
     sum = a + b;
     diff = a - b;
-    mul = (float)a * b;
+    mul = a * b;
     div = (float)a / b;
     if(ch == '+'){
         printf("%d", sum);
@@ -15,7 +16,7 @@ int main(){
         printf("%d", diff);
     }
     else if(ch == '*'){
-        printf("%.2f", mul);
+        printf("%d", mul);
     }
     else if(ch == '/'){
         if((b!=0)&&(a!=0)){

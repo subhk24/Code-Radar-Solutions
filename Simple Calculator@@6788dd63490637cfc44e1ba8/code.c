@@ -18,11 +18,11 @@ int main(){
         printf("%.2f", mul);
     }
     else if(ch == '/'){
-        if(b==0){
-            printf("error");
+        if((b!=0)&&(a!=0)){
+            printf("%.2f", div);
         }
         else{
-            printf("%.2f", div);
+            printf("error");
         }
     }
     else{

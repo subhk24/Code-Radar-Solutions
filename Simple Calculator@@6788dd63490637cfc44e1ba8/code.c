@@ -6,8 +6,8 @@ int main(){
     scanf("%d %d %c", &a, &b, &ch);
     sum = a + b;
     diff = a - b;
-    mul = a * b;
-    div = a / b;
+    mul = float(a * b);
+    div = float(a / b);
     if(ch == '+'){
         printf("%d", sum);
         }
@@ -15,10 +15,15 @@ int main(){
         printf("%d", diff);
     }
     else if(ch == '*'){
-        printf("%d", mul);
+        printf("%.2f", mul);
     }
     else if(ch == '/'){
-        printf("%d", div);
+        if(b==0){
+            printf("error");
+        }
+        else{
+            printf("%.2f", div);
+        }
     }
     else{
         printf("error");
